@@ -2,10 +2,10 @@ public class challenge
 {
 	public static void main(String[] args) {
 		
-		String star="";
+		String star="*";
 		
 		        for(int i=0;i<9;i++){  
-		            if(i<4)
+		            if(i<3)
 		            {
 		        System.out.println(star);
 		        star=star+"*";
