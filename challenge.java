@@ -8,11 +8,11 @@ public class challenge
 		            if(i<3)
 		            {
 		        System.out.println(star);
-		        star=star+"*";
+		        star=star+"*"; //add 1 star
 		        }
 		        else if (i>4){
 		            System.out.println(star);
-		          star= star.substring(0, star.length() - 1);
+		          star= star.substring(0, star.length() - 1); // delet 1 star
 		            
 		        }
 		        
